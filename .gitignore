@@ -16,3 +16,4 @@ target/
 
 sa-frontend/node_modules
 sa-webapp/target
+sa-webapp/minikube-linux-amd64
