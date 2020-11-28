@@ -13,3 +13,6 @@ target/
 # IDE ignored files
 .idea/
 *.iml
+
+sa-frontend/node_modules
+sa-webapp/target
