@@ -2,10 +2,10 @@ trigger:
 - azure-dev-ops      # 1
 
 variables:           # 2
-  sa-frontend-image-name: '$(dockerId)/sentiment-analysis-frontend:$(build.buildId)'
-  sa-web-app-image-name: '$(dockerId)/sentiment-analysis-web-app:$(build.buildId)'
-  sa-logic-image-name: '$(dockerId)/sentiment-analysis-logic:$(build.buildId)'
-  sa-feedback-image-name: '$(dockerId)/sentiment-analysis-feedback:$(build.buildId)'
+  sa-frontend-image-name: 'moto88/sentiment-analysis-frontend:minkube'
+  sa-web-app-image-name: 'moto88/sentiment-analysis-web-app:latest'
+  sa-logic-image-name: 'moto88/sentiment-analysis-logic:latest'
+  sa-feedback-image-name: 'rinormaloku/sentiment-analysis-feedback:latest'
 
 jobs:                # 3
 - job: SA_Frontend   # 3.a
